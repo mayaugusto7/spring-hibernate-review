@@ -1,0 +1,23 @@
+package br.com.springdemo.mvc.validation;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+
+public class CourseCodeConstraintValidador implements ConstraintValidator<CourseCode, String> {
+	
+	private String coursePrefix;
+
+	@Override
+	public void initialize(CourseCode theCourseCode) {
+		this.coursePrefix = theCourseCode.value();
+	}
+
+	@Override
+	public boolean isValid(String theCode, ConstraintValidatorContext constraintValidatorContext) {
+		
+		boolean result = theCode.startsWith(this.coursePrefix);
+		
+		return result;
+	}
+
+}

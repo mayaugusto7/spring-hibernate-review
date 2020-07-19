@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LaunchTerminalSettingsDialog">
+		<item key="terminalLabel" value="powershell"/>
+		<section name="SettingsPanelControl">
+			<section name="Git Bash">
+			</section>
+			<section name="Local Terminal">
+				<item key="encoding" value="UTF-8"/>
+			</section>
+			<section name="powershell">
+				<item key="encoding" value="UTF-8"/>
+			</section>
+		</section>
+	</section>
+</section>
