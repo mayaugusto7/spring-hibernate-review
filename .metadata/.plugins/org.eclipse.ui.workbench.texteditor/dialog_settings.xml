@@ -6,10 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="Employee"/>
 		<list key="findhistory">
+			<item value="s"/>
+			<item value="Student"/>
+			<item value="Deleting"/>
 			<item value="CourseCodeConstraintValidador"/>
 		</list>
 		<list key="replacehistory">
+			<item value="e"/>
+			<item value="Employee"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

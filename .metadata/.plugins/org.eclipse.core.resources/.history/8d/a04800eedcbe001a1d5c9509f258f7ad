@@ -1,7 +1,0 @@
-package br.com.springdemo.mvc.validation;
-
-import javax.validation.ConstraintValidator;
-
-public class CourseCodeConstraintValidador implements ConstraintValidator<A, T> {
-
-}
