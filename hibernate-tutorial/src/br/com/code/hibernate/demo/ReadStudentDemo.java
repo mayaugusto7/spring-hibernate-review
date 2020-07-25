@@ -1,14 +1,18 @@
 package br.com.code.hibernate.demo;
 
+import java.text.ParseException;
+import java.util.Date;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 import br.com.code.hibernate.demo.entity.Student;
+import br.com.code.hibernate.demo.utils.DateUtils;
 
 public class ReadStudentDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ParseException {
 		
 		// create session factory
 		SessionFactory sessionFactory = new Configuration()
@@ -23,7 +27,11 @@ public class ReadStudentDemo {
 		try {
 			// create object
 			System.out.println("Creating new student object");
-			Student student = new Student("Maycon", "Augusto", "maycon_ribeiro@hotmail.com");
+			
+			String theDateOfBirthStr = "31/12/1998";
+			Date theDateOfBirth = DateUtils.parseDate(theDateOfBirthStr);
+			
+			Student student = new Student("Maycon", "Augusto", "maycon_ribeiro@hotmail.com", theDateOfBirth);
 			
 			// start transaction 
 			session.beginTransaction();
