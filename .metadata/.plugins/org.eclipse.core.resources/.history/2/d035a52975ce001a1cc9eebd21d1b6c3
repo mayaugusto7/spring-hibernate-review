@@ -1,5 +1,0 @@
-package br.com.code.hibernate.demo.entity;
-
-public class Employee {
-
-}
