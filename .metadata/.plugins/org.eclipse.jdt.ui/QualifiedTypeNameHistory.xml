@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="br.com.springdemo.mvc.Student"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
 <fullyQualifiedTypeName name="com.sun.istack.internal.NotNull"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
@@ -28,9 +24,6 @@
 <fullyQualifiedTypeName name="br.com.springdemo.mvc.validation.CourseCode"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
-<fullyQualifiedTypeName name="org.hibernate.Session"/>
 <fullyQualifiedTypeName name="org.hibernate.SessionBuilder"/>
 <fullyQualifiedTypeName name="br.com.code.hibernate.demo.entity.Student"/>
 <fullyQualifiedTypeName name="br.com.code.hibernate.demo.entity.Employee"/>
@@ -57,7 +50,14 @@
 <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
 <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="com.mysql.cj.Query"/>
+<fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="br.com.code.hibernate.demo.entity.Instructor"/>
 <fullyQualifiedTypeName name="br.com.code.hibernate.demo.entity.Course"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="org.hibernate.query.Query"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
 </qualifiedTypeNameHistroy>
