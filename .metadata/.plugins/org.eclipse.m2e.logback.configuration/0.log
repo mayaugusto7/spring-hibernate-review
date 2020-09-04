@@ -23,5 +23,8 @@
 2020-08-22 11:18:55,478 [Worker-32: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.18.Final/hibernate-core-5.4.18.Final-sources.jar
 2020-08-22 11:19:00,478 [Worker-32: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.18.Final/hibernate-core-5.4.18.Final-sources.jar
 2020-08-22 11:48:50,110 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+<<<<<<< HEAD
 2020-09-04 10:35:25,537 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2020-09-04 11:09:16,017 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+=======
+>>>>>>> 93cfa3f5ab0ebb103c5190cf8f1292acd20edf12

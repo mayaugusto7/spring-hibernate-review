@@ -8699,6 +8699,7 @@ Binding(CTRL+D,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-22 12:14:48.531
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ejOYaxVC => OK
+<<<<<<< HEAD
 !SESSION 2020-09-04 10:34:40.259 -----------------------------------------------
 eclipse.buildId=4.16.0.I20200604-0540
 java.version=1.8.0_265
@@ -9754,3 +9755,5 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-04 18:30:21.631
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZJReztGH => OK
+=======
+>>>>>>> 93cfa3f5ab0ebb103c5190cf8f1292acd20edf12
