@@ -1,5 +1,0 @@
-127.0.0.1 - - [01/Jul/2020:19:42:44 -0300] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [01/Jul/2020:19:42:45 -0300] "GET /spring-mvc-demo/ HTTP/1.1" 200 655
-0:0:0:0:0:0:0:1 - - [01/Jul/2020:19:42:45 -0300] "GET /spring-mvc-demo/resources/js/simple-test.js HTTP/1.1" 200 62
-0:0:0:0:0:0:0:1 - - [01/Jul/2020:19:42:45 -0300] "GET /spring-mvc-demo/resources/css/my-test.css HTTP/1.1" 200 110
-0:0:0:0:0:0:0:1 - - [01/Jul/2020:19:42:45 -0300] "GET /spring-mvc-demo/resources/images/spring-logo.png HTTP/1.1" 200 31074

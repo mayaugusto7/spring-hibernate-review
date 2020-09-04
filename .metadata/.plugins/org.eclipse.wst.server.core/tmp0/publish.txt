@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Sun Jul 05 19:17:19 BRT 2020
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Maycon\\eclipse-workspace-java\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.7.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.7.RELEASE-sources.jar
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Maycon\\eclipse-workspace-java\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.7.RELEASE.jar=WEB-INF/lib/spring-web-5.2.7.RELEASE.jar
