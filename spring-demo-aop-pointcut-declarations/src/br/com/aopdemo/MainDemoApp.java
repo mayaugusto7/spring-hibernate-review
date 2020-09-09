@@ -25,13 +25,6 @@ public class MainDemoApp {
 		membershipDAO.addSillyMember();
 		membershipDAO.goToSleep();
 		
-		// do it againg!
-		// System.out.println("\n let's call it again!\n");
-		
-		// call the business again
-		// accountDAO.addAccount();
-		
-		// close the context
 		context.close();
 	}
 
