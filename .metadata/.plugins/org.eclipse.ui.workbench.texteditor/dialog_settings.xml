@@ -6,14 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Employee"/>
+		<item key="selection" value="public"/>
 		<list key="findhistory">
+			<item value="private"/>
 			<item value="s"/>
 			<item value="Student"/>
 			<item value="Deleting"/>
 			<item value="CourseCodeConstraintValidador"/>
 		</list>
 		<list key="replacehistory">
+			<item value="public"/>
 			<item value="e"/>
 			<item value="Employee"/>
 		</list>
