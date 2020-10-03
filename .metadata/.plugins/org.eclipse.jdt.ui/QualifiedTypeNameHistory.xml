@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="br.com.code.hibernate.demo.entity.Student"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="br.com.code.hibernate.demo.entity.Course"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
@@ -23,7 +22,6 @@
 <fullyQualifiedTypeName name="br.com.springdemo.dao.CustomerDAOImpl"/>
 <fullyQualifiedTypeName name="br.com.springdemo.dao.CustomerDAO"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="br.com.springdemo.service.CustomerService"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
@@ -43,12 +41,20 @@
 <fullyQualifiedTypeName name="br.com.aopdemo.dao.AccountDAO"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-<fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
 <fullyQualifiedTypeName name="br.com.aopdemo.dao.MembershipDAO"/>
-<fullyQualifiedTypeName name="br.com.aopdemo.Account"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
 <fullyQualifiedTypeName name="org.springframework.core.annotation.Order"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterReturning"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+<fullyQualifiedTypeName name="br.com.aopdemo.Account"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
 </qualifiedTypeNameHistroy>
