@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="public"/>
+		<item key="selection" value="logger.info"/>
 		<list key="findhistory">
+			<item value="System.out.println"/>
 			<item value="private"/>
 			<item value="s"/>
 			<item value="Student"/>
@@ -15,6 +16,7 @@
 			<item value="CourseCodeConstraintValidador"/>
 		</list>
 		<list key="replacehistory">
+			<item value="logger.info"/>
 			<item value="public"/>
 			<item value="e"/>
 			<item value="Employee"/>

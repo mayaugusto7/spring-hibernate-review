@@ -1,13 +1,19 @@
 INDEX VERSION 1.131
-C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\185871768.index
-\web-customer-tracker\src
-C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3659304352.index
-\web-customer-tracker-aop\src
 C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2178144631.index
 \web-customer-tracker-aop\src
-C:\Users\Maycon\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\237508677.index
-\spring-mvc-demo\src
-C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\237508677.index
-\spring-mvc-demo\src
+C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3862151852.index
+\spring-security-demo-01-base-app\src\main\java
+C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3659304352.index
+\web-customer-tracker-aop\src
 C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4261569207.index
 \web-customer-tracker\src
+C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1514348238.index
+\spring-security-demo-02-basic-security\src\main\java
+C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\185871768.index
+\web-customer-tracker\src
+C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\237508677.index
+\spring-mvc-demo\src
+C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\715998994.index
+\mycoolwebapp\src\main\resources
+C:\Users\Maycon\eclipse-workspace-java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\237508677.index
+\spring-mvc-demo\src
