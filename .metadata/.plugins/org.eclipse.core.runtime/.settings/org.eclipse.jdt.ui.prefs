@@ -9,6 +9,7 @@ content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
 lastRecentlyUsedFilters=org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter,
+markOccurrences=false
 org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder=true
 org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject=true
 org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter=true

@@ -12663,3 +12663,1262 @@ Binding(CTRL+SHIFT+/,
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-10-27 19:50:33.720
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2020-11-25 17:56:44.754 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-11-25 17:56:52.969
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-25 17:56:52.970
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fc84c92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f7bd970,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-11-25 17:57:00.030
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mayco'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:17.357
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:17.358
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3c73d613[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1073)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:17.361
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:17.438
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2020-11-25 17:58:18.170
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-25 17:58:18.170
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f405c13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58d7a3bb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-11-25 17:58:20.143
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.449
+!MESSAGE Boot LS startup time from start to initialized: 3077ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.732
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BlIQInEYisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.735
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.736
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.737
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.740
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.741
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.741
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BlIQInEY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.742
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.754
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.756
+!MESSAGE buffering callback sts4.classpath.BlIQInEY spring-security-demo-05-logout false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.757
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.760
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.762
+!MESSAGE buffering callback sts4.classpath.BlIQInEY spring-security-demo-03-custom-login-form false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.763
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.766
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.769
+!MESSAGE buffering callback sts4.classpath.BlIQInEY spring-security-demo-04-bootstrap-login-form false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.769
+!MESSAGE executing callback sts4.classpath.BlIQInEY 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 17:58:20.801
+!MESSAGE executing callback sts4.classpath.BlIQInEY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:09:49.825
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BlIQInEY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:09:49.826
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BlIQInEY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:09:49.826
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:09:49.827
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BlIQInEY => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:10:09.683
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:10:09.687
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:10:11.056
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:10:11.058
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 2 2 2020-11-25 18:10:18.840
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:10:33.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:10:33.807
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:10:34.872
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:10:34.874
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 18:13:21.346
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 18:13:21.347
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 18:13:21.352
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:13:35.619
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:13:35.620
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:16:35.883
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:16:35.885
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:10.306
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:10.307
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3c73d613[org.springframework.tooling.boot.ls:1.21.0.202009020949(id=1073)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:10.307
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-11-25 18:17:11.328
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:541)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:530)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:858)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:361)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1556)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:588)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.eclipse.jface.text.source.SourceViewer.ensureCodeMiningManagerInstalled(SourceViewer.java:1301)
+	at org.eclipse.jface.text.source.SourceViewer.setCodeMiningAnnotationPainter(SourceViewer.java:1320)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.showAnnotations(SourceViewerDecorationSupport.java:830)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.updateTextDecorations(SourceViewerDecorationSupport.java:301)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.install(SourceViewerDecorationSupport.java:269)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3110)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1534)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:154)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:361)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1000)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:107)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4735)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:658)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:622)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:790)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:404)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1266)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3195)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:376)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:182)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:285)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:251)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-11-25 18:17:12.330
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:541)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:530)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:858)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:379)
+	at java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.util.HashMap$KeySpliterator.tryAdvance(HashMap.java:1577)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:516)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:378)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:588)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.eclipse.jface.text.source.SourceViewer.ensureCodeMiningManagerInstalled(SourceViewer.java:1301)
+	at org.eclipse.jface.text.source.SourceViewer.setCodeMiningAnnotationPainter(SourceViewer.java:1320)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.showAnnotations(SourceViewerDecorationSupport.java:830)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.updateTextDecorations(SourceViewerDecorationSupport.java:301)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.install(SourceViewerDecorationSupport.java:269)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:454)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3110)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1534)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:154)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:361)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1000)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:107)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4735)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:658)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:622)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:790)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:404)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1266)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3195)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:376)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:182)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:285)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:251)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.439
+!MESSAGE Boot LS startup time from start to initialized: 2130ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.469
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jwNaZGQPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.470
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.470
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.471
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.472
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.472
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.473
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.473
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jwNaZGQP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.476
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.479
+!MESSAGE buffering callback sts4.classpath.jwNaZGQP spring-security-demo-06-csrf false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.480
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.484
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.487
+!MESSAGE buffering callback sts4.classpath.jwNaZGQP spring-security-demo-03-custom-login-form false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.487
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.492
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.495
+!MESSAGE buffering callback sts4.classpath.jwNaZGQP spring-security-demo-04-bootstrap-login-form false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.495
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.498
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.501
+!MESSAGE buffering callback sts4.classpath.jwNaZGQP spring-security-demo-05-logout false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.502
+!MESSAGE executing callback sts4.classpath.jwNaZGQP 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:17:12.535
+!MESSAGE executing callback sts4.classpath.jwNaZGQP SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:20:14.829
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:20:14.831
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:23.494
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:23.497
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:23.498
+!MESSAGE buffering callback sts4.classpath.jwNaZGQP spring-security-demo-07-user-roles false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:23.498
+!MESSAGE executing callback sts4.classpath.jwNaZGQP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:23.504
+!MESSAGE executing callback sts4.classpath.jwNaZGQP SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:25:24.065
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:25:24.071
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:24.650
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:24.656
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:24.658
+!MESSAGE buffering callback sts4.classpath.jwNaZGQP spring-security-demo-07-user-roles false 35
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:24.659
+!MESSAGE executing callback sts4.classpath.jwNaZGQP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:25:24.665
+!MESSAGE executing callback sts4.classpath.jwNaZGQP SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:25:25.386
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:25:25.390
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:25:39.796
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:25:39.798
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:27:19.191
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:27:19.193
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:27:19.201
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:19.247
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:19.251
+!MESSAGE classpath=39 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:19.253
+!MESSAGE buffering callback sts4.classpath.jwNaZGQP spring-security-demo-07-user-roles false 39
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:19.254
+!MESSAGE executing callback sts4.classpath.jwNaZGQP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:19.259
+!MESSAGE executing callback sts4.classpath.jwNaZGQP SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:27:20.443
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:27:20.445
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:26.893
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:26.897
+!MESSAGE classpath=39 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:26.900
+!MESSAGE buffering callback sts4.classpath.jwNaZGQP spring-security-demo-07-user-roles false 39
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:26.900
+!MESSAGE executing callback sts4.classpath.jwNaZGQP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 18:27:26.907
+!MESSAGE executing callback sts4.classpath.jwNaZGQP SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:27:27.042
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:27:27.044
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 18:27:49.395
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 18:27:49.395
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 18:27:49.396
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:28:27.175
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:28:27.178
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:28:39.234
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:28:39.237
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:29:39.417
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:29:39.420
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:30:13.190
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:30:13.192
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-11-25 18:31:33.595
+!MESSAGE Could not delete C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-security-demo-06-csrf\WEB-INF\lib\spring-security-config-5.0.0.RELEASE.jar. May be locked by another process.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-11-25 18:31:33.624
+!MESSAGE Could not delete C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-security-demo-06-csrf\WEB-INF\lib\spring-security-config-5.0.0.RELEASE.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:37:45.219
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:37:45.221
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:43:13.062
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-11-25 18:43:13.064
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface 2 0 2020-11-25 19:25:23.113
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-25 19:25:23.113
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e7c485e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e568ac9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-25 19:25:23.113
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.addblockcommentcommand,Add Block Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@44b577fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.toggle_comment,Toggle Comment,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9970341,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 19:25:23.142
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jwNaZGQP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 19:25:23.143
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jwNaZGQP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 19:25:23.143
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 19:25:23.144
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jwNaZGQP => OK
+!SESSION 2021-07-15 11:07:27.663 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=16.0.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-07-15 11:09:08.402
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-15 11:09:08.402
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22f34197,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49a14b44,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-07-15 11:09:19.973
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-07-15 11:09:19.976
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-07-15 11:09:19.982
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:21.451
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:21.455
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface 2 0 2021-07-15 11:09:21.996
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-15 11:09:21.996
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@135b8428,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b2b7e3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-15 11:09:22.719
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mayco'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:23.057
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:23.060
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:23.443
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:23.446
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:26.144
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:26.147
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:26.617
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-15 11:09:26.620
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.sonarlint.eclipse.core 2 0 2021-07-15 11:09:28.312
+!MESSAGE Error when executing SonarLint analysis
+!STACK 0
+java.lang.IllegalStateException: Unable to load component class org.sonarsource.sonarlint.core.analyzer.sensor.SensorsExecutor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.getComponentByType(ComponentContainer.java:251)
+	at org.sonarsource.sonarlint.core.container.analysis.AnalysisContainer.doAfterStart(AnalysisContainer.java:134)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.startComponents(ComponentContainer.java:126)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.execute(ComponentContainer.java:111)
+	at org.sonarsource.sonarlint.core.container.standalone.StandaloneGlobalContainer.analyze(StandaloneGlobalContainer.java:155)
+	at org.sonarsource.sonarlint.core.StandaloneSonarLintEngineImpl.analyze(StandaloneSonarLintEngineImpl.java:91)
+	at org.sonarlint.eclipse.core.internal.engine.StandaloneEngineFacade.runAnalysis(StandaloneEngineFacade.java:84)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:65)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:1)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.run(AbstractAnalyzeProjectJob.java:396)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.runAnalysisAndUpdateMarkers(AbstractAnalyzeProjectJob.java:199)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.doRun(AbstractAnalyzeProjectJob.java:161)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractSonarProjectJob.run(AbstractSonarProjectJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Unable to load component class org.sonar.plugins.javascript.eslint.JavaScriptEslintBasedSensor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:621)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter.getArrayInstance(CollectionComponentParameter.java:334)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter.access$100(CollectionComponentParameter.java:49)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter$1.resolveInstance(CollectionComponentParameter.java:139)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:141)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 15 more
+Caused by: java.lang.IllegalStateException: Unable to load component class org.sonar.plugins.javascript.JavaScriptSensor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 31 more
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class net.sf.cglib.proxy.Enhancer
+	at com.sonar.sslr.api.typed.ActionParser.<init>(ActionParser.java:59)
+	at org.sonar.javascript.parser.JavaScriptParser.<init>(JavaScriptParser.java:33)
+	at org.sonar.javascript.parser.JavaScriptParserBuilder.createParser(JavaScriptParserBuilder.java:31)
+	at org.sonar.plugins.javascript.JavaScriptSensor.<init>(JavaScriptSensor.java:115)
+	at org.sonar.plugins.javascript.JavaScriptSensor.<init>(JavaScriptSensor.java:85)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 45 more
+
+!ENTRY org.sonarlint.eclipse.core 2 0 2021-07-15 11:09:28.313
+!MESSAGE Error when executing SonarLint analysis
+!STACK 0
+java.lang.IllegalStateException: Unable to load component class org.sonarsource.sonarlint.core.analyzer.sensor.SensorsExecutor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.getComponentByType(ComponentContainer.java:251)
+	at org.sonarsource.sonarlint.core.container.analysis.AnalysisContainer.doAfterStart(AnalysisContainer.java:134)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.startComponents(ComponentContainer.java:126)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.execute(ComponentContainer.java:111)
+	at org.sonarsource.sonarlint.core.container.standalone.StandaloneGlobalContainer.analyze(StandaloneGlobalContainer.java:155)
+	at org.sonarsource.sonarlint.core.StandaloneSonarLintEngineImpl.analyze(StandaloneSonarLintEngineImpl.java:91)
+	at org.sonarlint.eclipse.core.internal.engine.StandaloneEngineFacade.runAnalysis(StandaloneEngineFacade.java:84)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:65)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:1)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.run(AbstractAnalyzeProjectJob.java:396)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.runAnalysisAndUpdateMarkers(AbstractAnalyzeProjectJob.java:199)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.doRun(AbstractAnalyzeProjectJob.java:161)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractSonarProjectJob.run(AbstractSonarProjectJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Unable to load component class org.sonar.plugins.javascript.eslint.JavaScriptEslintBasedSensor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:621)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter.getArrayInstance(CollectionComponentParameter.java:334)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter.access$100(CollectionComponentParameter.java:49)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter$1.resolveInstance(CollectionComponentParameter.java:139)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:141)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 15 more
+Caused by: java.lang.IllegalStateException: Unable to load component class org.sonar.plugins.javascript.JavaScriptSensor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 31 more
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class net.sf.cglib.proxy.Enhancer
+	at com.sonar.sslr.api.typed.ActionParser.<init>(ActionParser.java:59)
+	at org.sonar.javascript.parser.JavaScriptParser.<init>(JavaScriptParser.java:33)
+	at org.sonar.javascript.parser.JavaScriptParserBuilder.createParser(JavaScriptParserBuilder.java:31)
+	at org.sonar.plugins.javascript.JavaScriptSensor.<init>(JavaScriptSensor.java:115)
+	at org.sonar.plugins.javascript.JavaScriptSensor.<init>(JavaScriptSensor.java:85)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 45 more
+
+!ENTRY org.sonarlint.eclipse.core 2 0 2021-07-15 11:09:28.314
+!MESSAGE Error when executing SonarLint analysis
+!STACK 0
+java.lang.IllegalStateException: Unable to load component class org.sonarsource.sonarlint.core.analyzer.sensor.SensorsExecutor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.getComponentByType(ComponentContainer.java:251)
+	at org.sonarsource.sonarlint.core.container.analysis.AnalysisContainer.doAfterStart(AnalysisContainer.java:134)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.startComponents(ComponentContainer.java:126)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.execute(ComponentContainer.java:111)
+	at org.sonarsource.sonarlint.core.container.standalone.StandaloneGlobalContainer.analyze(StandaloneGlobalContainer.java:155)
+	at org.sonarsource.sonarlint.core.StandaloneSonarLintEngineImpl.analyze(StandaloneSonarLintEngineImpl.java:91)
+	at org.sonarlint.eclipse.core.internal.engine.StandaloneEngineFacade.runAnalysis(StandaloneEngineFacade.java:84)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:65)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:1)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.run(AbstractAnalyzeProjectJob.java:396)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.runAnalysisAndUpdateMarkers(AbstractAnalyzeProjectJob.java:199)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.doRun(AbstractAnalyzeProjectJob.java:161)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractSonarProjectJob.run(AbstractSonarProjectJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Unable to load component class org.sonar.plugins.javascript.eslint.JavaScriptEslintBasedSensor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:621)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter.getArrayInstance(CollectionComponentParameter.java:334)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter.access$100(CollectionComponentParameter.java:49)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter$1.resolveInstance(CollectionComponentParameter.java:139)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:141)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 15 more
+Caused by: java.lang.IllegalStateException: Unable to load component class org.sonar.plugins.javascript.JavaScriptSensor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 31 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.sonar.sslr.api.typed.ActionParser.<init>(ActionParser.java:59)
+	at org.sonar.javascript.parser.JavaScriptParser.<init>(JavaScriptParser.java:33)
+	at org.sonar.javascript.parser.JavaScriptParserBuilder.createParser(JavaScriptParserBuilder.java:31)
+	at org.sonar.plugins.javascript.JavaScriptSensor.<init>(JavaScriptSensor.java:115)
+	at org.sonar.plugins.javascript.JavaScriptSensor.<init>(JavaScriptSensor.java:85)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 45 more
+Caused by: net.sf.cglib.core.CodeGenerationException: java.lang.reflect.InaccessibleObjectException-->Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @5e8e02bc
+	at net.sf.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:464)
+	at net.sf.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:336)
+	at net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:93)
+	at net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:91)
+	at net.sf.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at net.sf.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	at net.sf.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:116)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:291)
+	at net.sf.cglib.core.KeyFactory$Generator.create(KeyFactory.java:221)
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:174)
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:153)
+	at net.sf.cglib.proxy.Enhancer.<clinit>(Enhancer.java:73)
+	... 65 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @5e8e02bc
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+	at net.sf.cglib.core.ReflectUtils$1.run(ReflectUtils.java:61)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at net.sf.cglib.core.ReflectUtils.<clinit>(ReflectUtils.java:52)
+	at net.sf.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:243)
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at net.sf.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:329)
+	... 77 more
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-07-15 11:23:22.939
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-07-15 11:23:22.940
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2021-07-15 11:23:22.941
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.sonarlint.eclipse.core 2 0 2021-07-15 11:23:23.067
+!MESSAGE Error when executing SonarLint analysis
+!STACK 0
+java.lang.IllegalStateException: Unable to load component class org.sonarsource.sonarlint.core.analyzer.sensor.SensorsExecutor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.getComponentByType(ComponentContainer.java:251)
+	at org.sonarsource.sonarlint.core.container.analysis.AnalysisContainer.doAfterStart(AnalysisContainer.java:134)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.startComponents(ComponentContainer.java:126)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer.execute(ComponentContainer.java:111)
+	at org.sonarsource.sonarlint.core.container.standalone.StandaloneGlobalContainer.analyze(StandaloneGlobalContainer.java:155)
+	at org.sonarsource.sonarlint.core.StandaloneSonarLintEngineImpl.analyze(StandaloneSonarLintEngineImpl.java:91)
+	at org.sonarlint.eclipse.core.internal.engine.StandaloneEngineFacade.runAnalysis(StandaloneEngineFacade.java:84)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:65)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:1)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.run(AbstractAnalyzeProjectJob.java:396)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.runAnalysisAndUpdateMarkers(AbstractAnalyzeProjectJob.java:199)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.doRun(AbstractAnalyzeProjectJob.java:161)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractSonarProjectJob.run(AbstractSonarProjectJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Unable to load component class org.sonar.plugins.javascript.eslint.JavaScriptEslintBasedSensor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:621)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter.getArrayInstance(CollectionComponentParameter.java:334)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter.access$100(CollectionComponentParameter.java:49)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.CollectionComponentParameter$1.resolveInstance(CollectionComponentParameter.java:139)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:141)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 15 more
+Caused by: java.lang.IllegalStateException: Unable to load component class org.sonar.plugins.javascript.JavaScriptSensor
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:60)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 31 more
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class net.sf.cglib.proxy.Enhancer
+	at com.sonar.sslr.api.typed.ActionParser.<init>(ActionParser.java:59)
+	at org.sonar.javascript.parser.JavaScriptParser.<init>(JavaScriptParser.java:33)
+	at org.sonar.javascript.parser.JavaScriptParserBuilder.createParser(JavaScriptParserBuilder.java:31)
+	at org.sonar.plugins.javascript.JavaScriptSensor.<init>(JavaScriptSensor.java:115)
+	at org.sonar.plugins.javascript.JavaScriptSensor.<init>(JavaScriptSensor.java:85)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.sonarsource.sonarlint.shaded.org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonarsource.sonarlint.core.container.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:58)
+	... 45 more
+
+!ENTRY org.eclipse.jface 2 0 2021-07-15 11:23:23.107
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-15 11:23:23.107
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b305fe5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14cdfff2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-15 11:23:23.107
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.addblockcommentcommand,Add Block Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@726d7e7a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.toggle_comment,Toggle Comment,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63a6d6cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-07-15 11:23:43.122
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
