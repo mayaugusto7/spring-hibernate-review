@@ -1,10 +1,1 @@
 INDEX VERSION 1.4+C:\Users\mayco\eclipse-workspace-java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-766059388.index
-3675231146.index
-147685901.index
-2795890122.index
-3469264943.index
-852832215.index
-2505907645.index
-3279845620.index
-1476910352.index

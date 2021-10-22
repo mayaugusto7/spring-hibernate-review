@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="C:\Users\mayco\.jdks\corretto-1.8.0_302" stamp="1632530694605"/>
     <entry loc="C:\Program Files\AdoptOpenJDK\jdk-8.0.252.09-hotspot" stamp="1587995264820"/>
+    <entry loc="C:\Users\mayco\.jdks\corretto-17" stamp="1631883732001"/>
     <entry loc="C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot" stamp="1598657720590"/>
     <entry loc="C:\Users\mayco\.jdks\corretto-16.0.1" stamp="1624999527749"/>
 </dirs>
