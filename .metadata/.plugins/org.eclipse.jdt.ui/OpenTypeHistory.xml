@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=spring-rest-demo/C:\/Users\/mayco\/.m2\/repository\/org\/springframework\/spring-webmvc\/5.3.12\/spring-webmvc-5.3.12.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-webmvc-5.3.12.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-webmvc=/=/maven.version=/5.3.12=/=/maven.scope=/compile=/&lt;org.springframework.web.servlet.support(AbstractAnnotationConfigDispatcherServletInitializer.class[AbstractAnnotationConfigDispatcherServletInitializer" modifiers="1057" timestamp="1634993564064"/>
+</typeInfoHistroy>
