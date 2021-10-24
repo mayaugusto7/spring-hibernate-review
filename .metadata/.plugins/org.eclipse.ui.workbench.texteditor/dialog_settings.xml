@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="logger.info"/>
+		<item key="selection" value="getHibernateProperties"/>
 		<list key="findhistory">
+			<item value="getHibernateProperties"/>
 			<item value="System.out.println"/>
 			<item value="private"/>
 			<item value="s"/>
