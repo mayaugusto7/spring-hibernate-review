@@ -225,4 +225,5 @@
   <system systemId="http://maven.apache.org/xsd/archetype-1.0.0.xsd" uri="jar:file:/D:/Eclipse/eclipse/plugins/org.eclipse.m2e.model.edit_1.18.1.20210607-0802.jar!/xsd/archetype-1.0.0.xsd"/>
   <system systemId="http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd" uri="jar:file:/D:/Eclipse/eclipse/plugins/org.eclipse.m2e.model.edit_1.18.1.20210607-0802.jar!/xsd/archetype-catalog-1.0.0.xsd"/>
   <system systemId="http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" uri="jar:file:/D:/Eclipse/eclipse/plugins/org.eclipse.m2e.model.edit_1.18.1.20210607-0802.jar!/xsd/archetype-descriptor-1.0.0.xsd"/>
+  <public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/D:/Eclipse/eclipse/plugins/org.springsource.ide.eclipse.commons.ui_4.12.1.202110250907.jar!/dtd/log4j-1.2.dtd" webURL="https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd"/>
 </catalog>
